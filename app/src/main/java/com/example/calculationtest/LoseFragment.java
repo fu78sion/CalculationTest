@@ -78,6 +78,7 @@ public class LoseFragment extends Fragment {
         binding.button10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                myViewModel.getCurrentScore().setValue(0);
                 NavController controller = Navigation.findNavController(view);
                 controller.navigate(R.id.action_loseFragment_to_titleFragment);
             }

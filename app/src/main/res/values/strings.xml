@@ -10,4 +10,7 @@
     <string name="input_msg">Your Answer: %d</string>
     <string name="lose_score">You Score: %d</string>
     <string name="win_score">New Record: %d</string>
+    <string name="dialog">Are you sure?</string>
+    <string name="positive_dialog">YES</string>
+    <string name="nagative_dialog">NO</string>
 </resources>

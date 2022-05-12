@@ -75,6 +75,7 @@ public class WinFragment extends Fragment {
         binding.button11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                myViewModel.getCurrentScore().setValue(0);
                 NavController controller = Navigation.findNavController(view);
                 controller.navigate(R.id.action_winFragment_to_titleFragment);
             }
