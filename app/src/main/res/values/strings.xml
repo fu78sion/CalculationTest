@@ -7,7 +7,7 @@
     <string name="button_title">START</string>
     <string name="high_score_msg">High Score: %d</string>
     <string name="current_score">Score: %d</string>
-    <string name="input_msg">Your Answer:</string>
+    <string name="input_msg">Your Answer: %d</string>
     <string name="lose_score">You Score: %d</string>
     <string name="win_score">New Record: %d</string>
 </resources>
