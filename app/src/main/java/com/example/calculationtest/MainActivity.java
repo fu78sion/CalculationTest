@@ -80,4 +80,5 @@ public class MainActivity extends AppCompatActivity {
  * 2. FragmentQuestionBinding 声明binding 前缀其实是对应xml的名字 这个类是自动生成的
  * 3. setData binding双向绑定 set后缀其实是xml声明的变量
  * 4. 最后成功发布到GitHub
+ * 5. 自己动手做点改变
  */
